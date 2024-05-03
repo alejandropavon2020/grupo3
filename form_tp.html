@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+</head>
+<body>
+    <h1>Registro de Usuario</h1>
+<form action="link" method="post" target="_self">
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="nomb">Nombre</label>
+        <input type="text" id="nomb" name="Nombre" required>
+        <label for="apell">Apellido</label>
+        <input type="text" id="apell" name="apell" required><br><br>
+        <label for="tdoc">Tipo de documento</label>
+        <select name="tdoc" id="tdoc">
+            <option value="DNI">DNI</option>
+            <option value="Pasaporte">PASAPORTE</option>
+        </select>
+        <label for="numero">Numero</label>
+        <input type="number" id="numero" name="numero" min="7" size="8" required><br><br>
+        <label for="edad">Edad</label>
+        <input type="text" name="edad" id="edad" min="18" max="80" >
+        <label for="fecnac">Fecha de Nacimiento</label>
+        <input type="date" name="fecnac" id="fecnac"><br><br>
+        <label for="sexo">Genero</label>
+        <input type="radio" name="sexo" value="1">Masculino
+        <input type="radio" name="sexo" value="2">Femenino
+        <input type="radio" name="sexo" value="3">Otros
+        <br><br>
+        <label for="mail">Mail</label>
+        <input type="email" name="mail" id="mail" required>
+        <label for="celu">Celular</label>
+        <input type="tel" name="celu" id="celu" max="11"><br><br>
+        <label for="contraseña">Escriba su contraseña </label>
+        <input type="text" name="contraseña" id="contraseña">
+        <label for="contraseña">Repita su contraseña </label>
+        <input type="text" name="contraseña" id="contraseña">
+        <h3>Direccion</h3>
+        <label for="calle">Calle</label>
+        <input type="text" name="calle" id="calle">
+        <label for="nro dire">Número</label>
+        <input type="text" name="nro dire" id="nro dire" size="6"><br><br>
+        <label for="entre">Entre Calles</label>
+        <input type="text" name="entre" id="calle" value="Calle 1 y calle 2">
+        <label for="codipo">Codigo Postal</label>
+        <input type="text" size="6" name="codipo" id="codipo" value="Ej:1714"><br><br>
+        <label for="localidad">Localidad</label>
+        <input type="text" name="localidad" id="localidad" >
+        <label for="provin">Provincia</label>
+        <input type="text" name="provin" id="provin"><br><br>
+        <label for="comen"></label>
+        <textarea name="comen" id="comen" cols="140" rows="10">Comentarios</textarea>
+
+        
+    </fieldset>
+    <input type="submit" value="Enviar datos">
+    
+</form>
+
+</body>
+</html>
