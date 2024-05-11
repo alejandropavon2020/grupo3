@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+   
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
@@ -9,7 +8,7 @@
 header{
     display: flex;
     flex-wrap: wrap;
-    background-image: url(.//imgtp/fondo.jpg) ;    
+    background-image: url(../imgtp/fondo.jpg) ;    
     width: 100%;
     height: 100px;
     justify-content: center;
@@ -84,6 +83,8 @@ main{
 }
 /* aside derecha tiene dos elementos una tarjeta y un video con titulo */
 .aside{
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgb(104, 132, 151);
     width: 25%;
     height: 100%;
@@ -126,7 +127,6 @@ main{
     color: white;
 }
 /* titulo del video aside */
-}
 .video h3 {
     margin-bottom: 0;
     margin-top: 15px;
@@ -145,7 +145,7 @@ main{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    background-color: rgb(136, 157, 125);
+    background-color: rgb(144, 148, 143);
     width: 75%;
     height: 100%;
     margin: 0;
@@ -185,7 +185,7 @@ main{
     text-align: center;
     color: black;
     border-radius: 10x;
-    background-color: lightblue);
+    background-color: lightblue;
     
 }
 .item a:hover{
