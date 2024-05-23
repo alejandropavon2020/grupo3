@@ -32,11 +32,19 @@ img{
 
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
     .column{
         flex: 100%;
     }
     body{
         background-color: lightgreen;
+    }
+}
+@media (max-width: 500px){
+    .column{
+        flex: 100%;
+    }
+    body{
+        background-color: rgb(221, 217, 213);
     }
 }
